@@ -10,7 +10,7 @@ const articles = [
   {
       image: "https://s2.glbimg.com/kWEvA_AIcdA564rsiakOziMpgqE=/0x0:1651x1100/1008x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2018/B/Z/nnHObjRbS6mYfBLJd4Bw/pet1.jpg",
       title: "O que porquinho da índia pode comer?",
-      contente: `Sabe o que porquinho da índia pode comer? Ainda que seja um roedor, esse animal carrega uma característica peculiar: ele é herbívoro. Ou seja, o tutor precisa saber exatamente o que oferecer ao seu animal de estimação para evitar quaisquer apuros.
+      content: `Sabe o que porquinho da índia pode comer? Ainda que seja um roedor, esse animal carrega uma característica peculiar: ele é herbívoro. Ou seja, o tutor precisa saber exatamente o que oferecer ao seu animal de estimação para evitar quaisquer apuros.
       Venha saber como seria uma alimentação saudável desse animal e quais os alimentos ele pode comer, continue a leitura! 
       Então, o que porquinho da índia pode comer?
       Como o porquinho da índia é um roedor herbívoro, ele tem uma alimentação bem específica para não interferir na sua saúde. Como parte de sua dieta balanceada, ele costuma comer feno com muita frequência e uma ração voltada somente para a sua espécie. 
@@ -38,7 +38,7 @@ const articles = [
       image: "https://www.petz.blog/wp-content/uploads/2020/02/como-cuidar-de-gatos-filhotes-pet.jpg",
       title: `Como cuidar de gatos filhotes:
               7 dicas para uma adaptação tranquila`,
-      contente: `Tempo de leitura: 5 minutos
+      content: `Tempo de leitura: 5 minutos
       Receber um novo filho de quatro patas em casa pode trazer algumas inseguranças. Mesmo tutores experientes muitas vezes se perguntam como cuidar de gatos filhotes.
     
       1. Começando na hora certa
@@ -85,7 +85,7 @@ const articles = [
       image: "https://s2.glbimg.com/RhF3-YPXNqLyZThDR6c9lFm9XeU=/0x0:1700x1065/984x0/smart/filters:strip_icc()/s.glbimg.com/jo/g1/f/original/2015/11/09/brazil-australia-mine-accident_douglas_magno_afp.jpg",
       title: `Vale deve pagar por resgate de animais
               em desastre em Brumadinho`,
-      contente: `O deputado estadual Noraldino Junior, famoso militante na causa dos direitos dos animais, enviou um documento à Coordenadoria Estadual de Defesa da Fauna, que pertence ao Ministério Público de Minas Gerais (MPMG), solicitando que O MP cobrasse da Vale o resgate dos animais atingidos pela bagagem.
+      content: `O deputado estadual Noraldino Junior, famoso militante na causa dos direitos dos animais, enviou um documento à Coordenadoria Estadual de Defesa da Fauna, que pertence ao Ministério Público de Minas Gerais (MPMG), solicitando que O MP cobrasse da Vale o resgate dos animais atingidos pela bagagem.
       Em resposta a MPMG enviou os seguintes documentos que serão encaminhados à Vale:
       ASSEMBLEIA DE MINAS Poder e Voz do Cidadão
       GABINETE DO DEPUTADO ESTADUAL Noraldino Junior
@@ -104,7 +104,7 @@ const articles = [
 {
       image: "https://blog.cobasi.wp-content/uploads/2021/01/gaiola-para-rato-twister-meio-1.png",
       title: "Rato Twister: guia completo da espécie",
-      contente: `O rato Twister, também conhecido como Mercol ou simplesmente rato, é inteligente, curioso e adora interagir com humanos. Seu nome científico é Rattus norvegicus e ele é encontrado originalmente na Europa e Ásia. Hoje, é possível vê-lo fazendo lares de todo o mundo muito mais felizes!
+      content: `O rato Twister, também conhecido como Mercol ou simplesmente rato, é inteligente, curioso e adora interagir com humanos. Seu nome científico é Rattus norvegicus e ele é encontrado originalmente na Europa e Ásia. Hoje, é possível vê-lo fazendo lares de todo o mundo muito mais felizes!
       Este é um dos melhores tipos de ratos para quem quer brincar bastante e interagir com frequência, já que ele é sociável e adora carinho e uma boa diversão.
       Mas você sabia que o rato Twister pode até aprender truques? Isso o torna uma excelente opção para crianças ou para tutores que adoram mimar os seus pets.
       Então continue a leitura e saiba tudo sobre esse fantástico bichinho!
@@ -201,7 +201,7 @@ const articles = [
     image: "aqui vc poe a url",
     title: `Criação de aves ornamentais:
      confira 4 espécies mais procuradas`,
-    contente: `Tempo de leitura: 4 minutos
+    content: `Tempo de leitura: 4 minutos
 
     A beleza é algo que exerce um verdadeiro fascínio nos seres humanos. Talvez por isso, para muita gente, o convívio com os animais nem precisa de muita interação. Basta que eles permitam contemplar a incrível obra de arte que é a natureza. É o que acontece com a criação de aves ornamentais.
     A seguir, descubra o que é e quais são as espécies mais procuradas por quem se enche de alegria só de olhar para esses animais bonitos e fascinantes.
