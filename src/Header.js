@@ -22,6 +22,7 @@ function Header(){
         <div className="header-actions-item">Artigos</div>
       </div>
     </div>
+    
     );
   }
   export default Header;
