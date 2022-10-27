@@ -2,22 +2,12 @@ import React from 'react'
 import Article from './Article'
 
 
-function Articles(){
+function Articles({data}){
   return (
     <>
       <div className="content">
         <div className="content-row">
-          <Article/>
-          <Article/>
-        </div>
-
-        <div className="content-row">
-          <Article/>
-          <Article/>
-        </div>
-
-        <div className="content-row">
-          <Article/>
+        {data.map(item=><Article item={item}/>)}
         </div>
      </div>
     </>

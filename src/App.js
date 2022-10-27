@@ -35,7 +35,7 @@ const articles = [
       Vegetais: abóbora, agrião, almeirão, berinjela, beterraba com folhas, cenoura, chicória, chuchu, coentro, escarola, espinafre, jiló, rabanete, repolho, rúcula, salsinha, pimentão.`
   },
 {
-      image: "https://www.petz.blog/wp-content/uploads/2020/02/como-cuidar-de-gatos-filhotes-pet.jpg",
+      image: "https://www.petz.com.br/blog/wp-content/uploads/2020/02/como-cuidar-de-gatos-filhotes-pet.jpg",
       title: `Como cuidar de gatos filhotes:
               7 dicas para uma adaptação tranquila`,
       content: `Tempo de leitura: 5 minutos
@@ -102,7 +102,7 @@ const articles = [
       Sendo isso para o momento coloco meu mandato a disposição. Atenciosamente, Noraldino Junior`
   },
 {
-      image: "https://blog.cobasi.wp-content/uploads/2021/01/gaiola-para-rato-twister-meio-1.png",
+      image: "https://blog.cobasi.com.br/wp-content/uploads/2021/01/gaiola-para-rato-twister-meio-1.png",
       title: "Rato Twister: guia completo da espécie",
       content: `O rato Twister, também conhecido como Mercol ou simplesmente rato, é inteligente, curioso e adora interagir com humanos. Seu nome científico é Rattus norvegicus e ele é encontrado originalmente na Europa e Ásia. Hoje, é possível vê-lo fazendo lares de todo o mundo muito mais felizes!
       Este é um dos melhores tipos de ratos para quem quer brincar bastante e interagir com frequência, já que ele é sociável e adora carinho e uma boa diversão.
@@ -198,7 +198,7 @@ const articles = [
       Também chamado de rato Dumbo, esse simpático roedor doméstico tem preços que variam muito de um lugar para o outro. Sempre verifique se o criador é autorizado e só adquira um pet em locais confiáveis.`
   },
 {
-    image: "aqui vc poe a url",
+    image: "https://www.petz.com.br/blog/wp-content/uploads/2019/04/criacao-de-aves-ornamentais-pet.jpg",
     title: `Criação de aves ornamentais:
      confira 4 espécies mais procuradas`,
     content: `Tempo de leitura: 4 minutos
@@ -247,7 +247,7 @@ function App() {
       <div className="blog">
           <Header/>
           <Banner/>
-          <Articles/>
+          <Articles data={articles}/>
       </div>
      <Footer/>
    </>
