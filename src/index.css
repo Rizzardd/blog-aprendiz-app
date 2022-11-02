@@ -188,6 +188,28 @@ body {
   margin-top: 8px;
 }
 
+.addArticle {
+  display: flex;
+  flex-shrink: 1;
+  min-height: 375px;
+  border: 1px solid black;
+  box-sizing: border-box;
+  padding: 8px;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 16px;
+}
+
+.Articlebutton {
+  padding: 4px 8px;
+  margin-top: 8px;
+}
+
+.articleTextArea {
+  width: 270px;
+  margin-top: 8px;
+}
+
 /*====== footer =======================================*/
 .footer {
   width: 100%;
