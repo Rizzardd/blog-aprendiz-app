@@ -6,7 +6,7 @@ import Footer from './Footer'
 import Banner from './Banner'
 import Articles from './Articles'
 import ArticleForm from './ArticleForm'
-import Button from './Button'
+
 
 
 
@@ -369,7 +369,6 @@ function App() {
           <Banner/>
           <Articles data={articles}/>
           <ArticleForm/>
-          <Button/>
       </div>
      <Footer/>
    </>

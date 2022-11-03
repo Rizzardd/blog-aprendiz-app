@@ -189,6 +189,7 @@ body {
 }
 
 .addArticle {
+  font-family: "Poppins", sans-serif;
   display: flex;
   flex-shrink: 1;
   min-height: 375px;
@@ -201,13 +202,28 @@ body {
 }
 
 .Articlebutton {
+  font-family: "Poppins", sans-serif;
   padding: 4px 8px;
   margin-top: 8px;
 }
 
 .articleTextArea {
+  font-family: "Poppins", sans-serif;
   width: 270px;
   margin-top: 8px;
+}
+
+.new-content-item {
+    display: flex;
+    flex-shrink: 1;
+    min-height: 375px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    padding: 8px;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 16px;
+    margin: 30px;
 }
 
 /*====== footer =======================================*/
