@@ -3,7 +3,7 @@ import { useState } from 'react'
 import { ImQuill } from "react-icons/im";
 
 
-function ArticleForm({}){
+function ArticleForm({onSubmit}){
     const [image,setImage] = useState("");
     const [title,setTitle] = useState("");
     const [articleText,setArticleText] = useState("");
@@ -13,12 +13,20 @@ function ArticleForm({}){
       <h2 className='content-item-title'>
         Novo Artigo
       </h2>
-        <input value={image} onChange={e=> setImage(e.target.value)} className='content-item-title' type="text" placeholder="insira a imagem do artigo"/>
+        <input value={image} onChange={e=> setImage(e.target.value)} className='content-item-title' type="text" placeholder="insira o link da imagem"/>
             <input value={title} onChange={e=> setTitle(e.target.value)} className='content-item-title' type="text" placeholder="insira o título do artigo"/>
             <textarea value={articleText} onChange={e=> setArticleText(e.target.value)} className='articleTextArea' type="text" placeholder="insira o texto do artigo"></textarea>
-            <button type='button' className='articleButton'><ImQuill/>
-            {image}, {title}, {articleText}
-        </button>
+            <button onClick={() => {
+                onSubmit({
+                    image: image,
+                    title: title,
+                    content: articleText
+                })
+                setImage("")
+                setTitle("")
+                setArticleText("")
+            }} type='button' className='article-button'>
+                publicar <ImQuill/></button>
      </div>
       </>
     );    

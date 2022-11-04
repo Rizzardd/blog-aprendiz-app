@@ -6,11 +6,12 @@ import Footer from './Footer'
 import Banner from './Banner'
 import Articles from './Articles'
 import ArticleForm from './ArticleForm'
+import { useState } from 'react';
 
 
 
 
-const articles = [
+const initialArticles = [
   {
       image: "https://s2.glbimg.com/kWEvA_AIcdA564rsiakOziMpgqE=/0x0:1651x1100/1008x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2018/B/Z/nnHObjRbS6mYfBLJd4Bw/pet1.jpg",
       title: "O que porquinho da índia pode comer?",
@@ -359,16 +360,19 @@ const articles = [
 
 ]
 
-  
+
 
 function App() {
+  const [articles, setArticles] = useState(initialArticles)
   return (
     <>
       <div className="blog">
           <Header/>
           <Banner/>
           <Articles data={articles}/>
-          <ArticleForm/>
+          <ArticleForm onSubmit={value =>{
+            setArticles(articles.concat(value))
+          }}/>
       </div>
      <Footer/>
    </>

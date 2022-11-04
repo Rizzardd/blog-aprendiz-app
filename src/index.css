@@ -201,11 +201,6 @@ body {
   padding-top: 16px;
 }
 
-.Articlebutton {
-  font-family: "Poppins", sans-serif;
-  padding: 4px 8px;
-  margin-top: 8px;
-}
 
 .articleTextArea {
   font-family: "Poppins", sans-serif;
@@ -224,6 +219,16 @@ body {
     align-items: center;
     padding-top: 16px;
     margin: 30px;
+}
+
+.article-button {
+  background: #589ba4;
+  border: 2px solid #589ba4;
+  border-radius: 3px;
+  color: #FDFDFD;
+  font-size: 1.2rem;
+  margin: 1rem;
+  padding: 1rem 1.5rem;
 }
 
 /*====== footer =======================================*/
