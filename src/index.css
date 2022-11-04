@@ -204,7 +204,8 @@ body {
 
 .articleTextArea {
   font-family: "Poppins", sans-serif;
-  width: 270px;
+  width: 500px;
+  height: 150px;
   margin-top: 8px;
 }
 
