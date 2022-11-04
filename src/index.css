@@ -180,8 +180,8 @@ body {
 }
 /*titulo dos artigos*/
 .content-item-title {
-  text-align: center;
-  font-size: 22px;
+  text-align: inherit;
+  font-size: 20px;
   font-family: "Poppins", sans-serif;
   display: flex;
   flex-direction: column;
@@ -204,7 +204,7 @@ body {
 
 .articleTextArea {
   font-family: "Poppins", sans-serif;
-  width: 500px;
+  width: 248px;
   height: 150px;
   margin-top: 8px;
 }
